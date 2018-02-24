@@ -25,18 +25,19 @@ It is a frame based bot developed using IBM Conversation API it uses a NodeJS an
 IBM conversation API provides the dialog flow for the frames also helps detect entities and user intent. With fuzzy matching feature on the app is resilient to misspells. One less thing to worry about.
 
 I used the Stanford Parser to do a dependency parse of the user input if the detected intent is #order and use the nmod dependecy to recognise a numerical modifier.
+
 A simple parse will lead to erronous result for example:
 
- "I want two cheese pizzas"
+#### "I want two cheese pizzas"
 
-The nmod dependency would be recognised as nmod(two,pizzas)
-which is not correct. To solve this issue i used the information sent by the conversation API about where the entity has been located and remove the overlapping entities from the list of entites. Then I replace the remaining entities in the text with custom contractions example:  Cheeze Pizza -> cpz 
+The nmod dependency would be recognised as #### nmod(two,pizzas)
+which is not correct. To solve this issue i used the information sent by the conversation API about where the entity has been located and remove the overlapping entities from the list of entites. Then I replace the remaining entities in the text with custom contractions example:  #### Cheeze Pizza -> cpz 
 
 So the above example sentence becomes: 
 
- "I want two cpz"
+#### "I want two cpz"
 
-Now the recognised dependency would be nmod(two,cpz)
+Now the recognised dependency would be #### nmod(two,cpz)
 I then use contractions to convert the numbers in words to numbers (feasible since only limited number of items can be ordered).
 I create a list of items and their counts from this. Also, I add the entities that have not been recognised with a depedency or a 'det' into the aforementioned list.
 
