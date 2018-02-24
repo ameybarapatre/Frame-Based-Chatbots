@@ -3,10 +3,6 @@
 ## Pizza Ordering Chat Bot 
 
 
-<img src = "https://raw.githubusercontent.com/ameybarapatre/chatbots/master/image2.png" width="700px" />
-
-<img src = "https://raw.githubusercontent.com/ameybarapatre/chatbots/master/image1.png" width="700px" />
-
 It is a frame based bot developed using IBM Conversation API it uses a NodeJS and CloudantDB backend, Although not the highlight of the application but a key functionality, it can help the user order from the following simplified menu: 
 
 1. Pizza
@@ -27,7 +23,15 @@ It is a frame based bot developed using IBM Conversation API it uses a NodeJS an
 	* Fountain drink
 		* Coke
 
+
+<img src = "https://raw.githubusercontent.com/ameybarapatre/chatbots/master/image1.png" width="700px" />
+
+<img src = "https://raw.githubusercontent.com/ameybarapatre/chatbots/master/image2.png" width="700px" />
+
+
 IBM conversation API provides the dialog flow for the frames also helps detect entities and user intent. With fuzzy matching feature on the app is resilient to misspells. One less thing to worry about.
+
+### Key Feature Order Item Counting:
 
 I used the Stanford Parser to do a dependency parse of the user input if the detected intent is #order and use the nmod dependecy to recognise a numerical modifier.
 
