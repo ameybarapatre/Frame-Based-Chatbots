@@ -45,7 +45,7 @@ Finally the order is compiled and stored in the cloudant store.
 
 
 
-##Note : I run the corenlp server jar to which accepts API requests for parses and responds with a JSON of parsed text.
+## Note : I run the corenlp server jar to which accepts API requests for parses and responds with a JSON of parsed text.
 
 Run this to start the server:
 
@@ -55,7 +55,7 @@ Due to this requirement the application deployed on the cloud cannot count the o
 
 [Pizzabot](http://conversation-simple-tes1.mybluemix.net/)
 
-###Some sandbox chatbots I created :
+### Some sandbox chatbots I created :
 
 [WeatherBot](http://weatherus.mybluemix.net/)
 [FoodCoachBot](http://food-coacher.mybluemix.net/)
