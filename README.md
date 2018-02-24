@@ -35,7 +35,7 @@ IBM conversation API provides the dialog flow for the frames also helps detect e
 
 I used the Stanford Parser to do a dependency parse of the user input if the detected intent is #order and use the nmod dependecy to recognise a numerical modifier.
 
-A simple parse will lead to erronous result for example:
+A simple parse will lead to erroneous result for example:
 
 #### "I want two cheese pizzas"
 
