@@ -3,7 +3,10 @@
 ## Pizza Ordering Chat Bot 
 
 
-<img src = "https://raw.githubusercontent.com/ameybarapatre/chatbots/master/image2.png" width="200px" /><img src = "https://raw.githubusercontent.com/ameybarapatre/chatbots/master/image1.png" width="200px" />
+<img src = "https://raw.githubusercontent.com/ameybarapatre/chatbots/master/image2.png" width="500px" />
+
+<img src = "https://raw.githubusercontent.com/ameybarapatre/chatbots/master/image1.png" width="500px" />
+
 It is a frame based bot developed using IBM Conversation API it uses a NodeJS and CloudantDB backend, Although not the highlight of the application but a key functionality, it can help the user order from the following simplified menu: 
 
 1. Pizza
