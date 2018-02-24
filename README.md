@@ -5,22 +5,22 @@
 It is a frame based bot developed using IBM Conversation API it uses a NodeJS and CloudantDB backend, Although not the highlight of the application but a key functionality, it can help the user order from the following simplified menu: 
 
 1. Pizza
-⋅⋅* With pepperoni
-⋅⋅* 4 cheese
-⋅⋅* Spinach and tomato
-⋅⋅* sausage
+	* With pepperoni
+	* 4 cheese
+	* Spinach and tomato
+	* sausage
 2. Stromboli
-⋅⋅* Salads
-⋅⋅* Garden Salad
-⋅⋅* French dressing
-⋅⋅* Ranch dressing
-⋅⋅* Italian dressing
-⋅⋅* Caesar salad
+	* Salads
+	* Garden Salad
+	* French dressing
+	* Ranch dressing
+	* Italian dressing
+	* Caesar salad
 3. Sides
-⋅⋅* Breadsticks
+	* Breadsticks
 4. Drinks
-⋅⋅* Fountain drink
-⋅⋅*	Coke
+	* Fountain drink
+		* Coke
 
 IBM conversation API provides the dialog flow for the frames also helps detect entities and user intent. With fuzzy matching feature on the app is resilient to misspells. One less thing to worry about.
 
