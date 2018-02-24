@@ -41,7 +41,8 @@ A simple parse will lead to erronous result for example:
 
 The nmod dependency would be recognised as:
 #### nmod(two,pizzas)
-which is not correct. To solve this issue i used the information sent by the conversation API about where the entity has been located and remove the overlapping entities from the list of entites. Then I replace the remaining entities in the text with custom contractions example:  #### Cheeze Pizza -> cpz 
+which is not correct. To solve this issue i used the information sent by the conversation API about where the entity has been located and remove the overlapping entities from the list of entites. Then I replace the remaining entities in the text with custom contractions example:  
+#### Cheeze Pizza -> cpz 
 
 So the above example sentence becomes: 
 
