@@ -10,12 +10,8 @@ It is a frame based bot developed using IBM Conversation API it uses a NodeJS an
 	* 4 cheese
 	* Spinach and tomato
 	* sausage
-2. Stromboli
-	* Salads
+2. Salads
 	* Garden Salad
-	* French dressing
-	* Ranch dressing
-	* Italian dressing
 	* Caesar salad
 3. Sides
 	* Breadsticks
