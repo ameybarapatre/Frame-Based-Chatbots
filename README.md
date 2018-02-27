@@ -56,7 +56,7 @@ Finally the order is compiled and stored in the cloudant store.
 
 ## Note : 
 I run the corenlp server jar to which accepts API requests for parses and responds with a JSON of parsed text.
-Run this to start the server:
+Run this to start the server in the StanfordCoreNLP directory:
 
 java -mx4g -cp "*" edu.stanford.nlp.pipeline.StanfordCoreNLPServer -port 9000 -timeout 15000
 
